@@ -18,3 +18,6 @@ export const fadeIn = (direction, delay) => {
       },
     };
   };
+
+
+  // Ahi Evran Caddesi No: 69-71 Ostim / ANKARA / TÜRKİYE <br /> Tel : +90 312 385 50 89 <br /> E-Posta : metcelik@metcelik.com.tr

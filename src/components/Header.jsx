@@ -24,7 +24,7 @@ const Header = () => {
         isActive ? 'h-[70px] lg:h-[85px] shadow-lg' : 'h-[110px] lg:h-[105px]'
       }  border-b shadow-2xl bg-gradient-to-r from-slate-400 to-transparent border-cyan-900 fixed left-0 right-0 z-10 max-w-[1920px] w-full mx-auto transition-all duration-300`}
     >
-      <div className='flex justify-between items-center h-full lg:pl-[150px] pl-[50px]  pr-[60px]'>
+      <div className='flex justify-between items-center h-full lg:pl-[150px] pl-[50px]'>
         {/* logo */}
         <a href='/'>
           <img className='w-[225px] h-[65px]' src={logo} alt='' />
