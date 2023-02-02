@@ -13,7 +13,7 @@ const NavMobile = () => {
         {items.map((item, index) => {
           return (
             <li key={index}>
-              <a className='text-2xl font-mons uppercase' href={item.href}>
+              <a className='text-2xl text-first font-mons uppercase' href={item.href}>
                 {item.name}
               </a>
             </li>

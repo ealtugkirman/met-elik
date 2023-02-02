@@ -37,7 +37,7 @@ function Slider() {
   };
 
   return (
-    <div className='max-w-full hidden md:flex bg-first h-[500px] w-full mx-auto relative group'>
+    <div className='max-w-full hidden md:flex h-[500px] w-full mx-auto relative group'>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full  bg-center   duration-500'

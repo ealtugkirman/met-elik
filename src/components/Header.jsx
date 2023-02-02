@@ -38,7 +38,7 @@ const Header = () => {
           onClick={() => setNavMobile(!navMobile)}
           className='xl:hidden absolute right-[5%] bg-dark p-2 rounded-md cursor-pointer'
         >
-          <TiThMenuOutline className='text-3xl text-third' />
+          <TiThMenuOutline className='text-2xl text-blue-600' />
         </div>
         {/* nav mobile - is showing by default - hidden on desktop mode */}
         <div
